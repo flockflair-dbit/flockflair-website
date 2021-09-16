@@ -1,0 +1,4 @@
+deployment:
+tasks:
+- export DEPLOYPATH=/home/dbithost/public_html/flockflair
+- /bin/cp -r * $DEPLOYPATH
